@@ -1,5 +1,7 @@
 # Kitere-Unihome
 
+
+
 Kitere UniHome is an innovative digital platform designed to streamline the process of finding, booking, and managing student accommodations. It addresses the housing challenges faced by students at Rongo University by offering a centralized system that connects students, landlords, and the university administration. The platform aims to provide a seamless, safe, and user-friendly solution to the ongoing issues of limited housing, safety concerns, and a lack of transparency in the rental process.
 
 How It Works:
