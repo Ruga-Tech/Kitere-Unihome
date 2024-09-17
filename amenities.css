@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header, footer {
+    background-color: green;
+    color: #fff;
+    padding: 40px 30px;
+    text-align: center;
+    
+}
+
+header a, footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.option, .service, .resource, .job, .bulletin {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+option button, .service button, .resource button, .job button, .bulletin button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+option button:hover, .service button:hover, .resource button:hover, .job button:hover, .bulletin button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        flex-direction: column;
+    }
+    .option, .service, .resource, .job, .bulletin {
+        width: 100%;
+    }
+}

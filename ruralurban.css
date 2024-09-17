@@ -1,0 +1,35 @@
+/* Specific styles for Rural and Urban Planning Solutions */
+.planning-solutions {
+    margin-top: 20px;
+}
+
+.planning-solutions .solution {
+    background-color: #f0f8ff; /* Light blue background for urban-rural theme */
+    border: 1px solid #b0c4de;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.planning-solutions .solution h2 {
+    color: #4682b4; /* Steel blue for headings */
+}
+
+.planning-solutions .solution p {
+    color: #2f4f4f; /* Dark slate gray for text */
+}
+
+.planning-solutions .solution button {
+    background-color: #4682b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.planning-solutions .solution button:hover {
+    background-color: #5a9bd4;
+}
